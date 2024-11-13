@@ -1,0 +1,91 @@
+/* App.css */
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #6200ea;
+  color: white;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.App-header .logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  display: inline-block;
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  border-color: #6200ea;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #6200ea;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #3700b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* App.css (responsive adjustments) */
+@media (max-width: 600px) {
+  .App-header h1 {
+    font-size: 2rem;
+  }
+
+  .input-field, .submit-btn {
+    font-size: 1rem;
+  }
+
+  .submit-btn {
+    padding: 10px;
+  }
+}
